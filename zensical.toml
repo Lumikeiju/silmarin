@@ -3,17 +3,12 @@ site_name = "Silmärin"
 site_description = "Lumikeiju's knowledge base."
 site_author = "Lumikeiju"
 site_url = "https://Lumikeiju.github.io/silmarin/"
-copyright = "&copy; 2025 Lumikeiju"
+copyright = "&copy; 2026 Lumikeiju"
 docs_dir = "docs"
 repo_url = "https://github.com/Lumikeiju/silmarin"
 repo_name = "Lumikeiju/Silmärin"
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
-# If you decide not to define a navigation here then Zensical will simply
-# derive the navigation structure from the directory structure of your
-# "docs_dir". The definition below demonstrates how a navigation structure
-# can be defined using TOML syntax.
-#
 # Read more: https://zensical.org/docs/setup/navigation/
 # nav = [
 #   { "Get started" = "index.md" },
@@ -23,18 +18,13 @@ repo_name = "Lumikeiju/Silmärin"
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
 # CSS files.
-#
 # The path provided should be relative to the "docs_dir".
-#
 # Read more: https://zensical.org/docs/customization/#additional-css
-#
 #extra_css = ["assets/stylesheets/extra.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
-#
 # The path provided should be relative to the "docs_dir".
-#
 # Read more: https://zensical.org/docs/customization/#additional-javascript
 #extra_javascript = ["assets/javascript/extra.js"]
 
@@ -47,10 +37,8 @@ repo_name = "Lumikeiju/Silmärin"
 # templates as well as to define your own templates. To do this, uncomment
 # the custom_dir setting below and set it to a directory in which you
 # keep your template overrides.
-#
 # Read more:
 # - https://zensical.org/docs/customization/#extending-the-theme
-#
 #custom_dir = "overrides"
 
 favicon = "images/favicon/favicon.png"
@@ -109,12 +97,12 @@ features = [
     # With this feature enabled, Zensical will automatically hide parts
     # of the header when the user scrolls past a certain point.
     # https://zensical.org/docs/setup/header/#automatic-hiding
-    # "header.autohide",
+    #"header.autohide",
 
     # Turn on this feature to expand all collapsible sections in the
     # navigation sidebar by default.
     # https://zensical.org/docs/setup/navigation/#navigation-expansion
-    # "navigation.expand",
+    #"navigation.expand",
 
     # This feature turns on navigation elements in the footer that allow the
     # user to navigate to a next or previous page.
@@ -140,7 +128,7 @@ features = [
     # In order to provide a better user experience on slow connections when
     # using instant navigation, a progress indicator can be enabled.
     # https://zensical.org/docs/setup/navigation/#progress-indicator
-    #"navigation.instant.progress"
+    "navigation.instant.progress",
 
     # When navigation paths are activated, a breadcrumb navigation is rendered
     # above the title of each page
@@ -160,7 +148,7 @@ features = [
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-tabs
-    #"navigation.tabs",
+    "navigation.tabs",
 
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
@@ -181,17 +169,17 @@ features = [
     # When search highlighting is enabled and a user clicks on a search result,
     # Zensical will highlight all occurrences after following the link.
     # https://zensical.org/docs/setup/search/#search-highlighting
-    "search.highlight",
+    #"search.highlight",
 
     # When anchor following for the table of contents is enabled, the sidebar
     # is automatically scrolled so that the active anchor is always visible.
     # https://zensical.org/docs/setup/navigation/#anchor-following
-    # "toc.follow"
+    "toc.follow",
 
     # When navigation integration for the table of contents is enabled, it is
     # always rendered as part of the navigation sidebar on the left.
     # https://zensical.org/docs/setup/navigation/#navigation-integration
-    #"toc.integrate"
+    "toc.integrate"
 ]
 
 # ----------------------------------------------------------------------------
@@ -199,9 +187,7 @@ features = [
 # You can configure different color # schemes, e.g., to turn on dark mode,
 # that the user can switch between. Each color scheme can be further
 # customized.
-#
-# Read more:
-# - https://zensical.org/docs/setup/colors/
+# Read more: https://zensical.org/docs/setup/colors/
 # ----------------------------------------------------------------------------
 [[project.theme.palette]]
 scheme = "default"
@@ -213,27 +199,18 @@ scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
 
-# ----------------------------------------------------------------------------
-# In the "font" subsection you can configure the fonts used. By default, fonts
-# are loaded from Google Fonts, giving you a wide range of choices from a set
-# of suitably licensed fonts. There are options for a normal text font and for
-# a monospaced font used in code blocks.
-# ----------------------------------------------------------------------------
-#[project.theme.font]
-#text = "Inter"
-#code = "Jetbrains Mono"
+[project.theme.font]
+text = "Atkinson Hyperlegible Next"
+code = "Atkinson Hyperlegible Mono"
 
 # ----------------------------------------------------------------------------
 # You can configure your own logo to be shown in the header using the "logo"
 # option in the "icons" subsection. The logo can be a path to a file in your
 # "docs_dir" or it can be a path to an icon.
-#
 # Likewise, you can customize the logo used for the repository section of the
 # header. Zensical derives the default logo for this from the repository URL.
 # See below...
-#
 # There are other icons you can customize. See the documentation for details.
-#
 # Read more:
 # - https://zensical.org/docs/setup/logo-and-icons
 # - https://zensical.org/docs/authoring/icons-emojis/#search
