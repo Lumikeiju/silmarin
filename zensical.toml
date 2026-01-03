@@ -228,11 +228,13 @@ features = [
 # ----------------------------------------------------------------------------
 
 [[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
 
 [[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
 scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
@@ -270,8 +272,71 @@ repo = "fontawesome/brands/github"
 # ----------------------------------------------------------------------------
 
 [[project.extra.social]]
-icon = "fontawesome/brands/github"
+name = "Lumikeiju on GitHub"
+icon = "openstreetmap-website/social-link-icons/github"
 link = "https://github.com/Lumikeiju"
+[[project.extra.social]]
+name = "Lumikeiju on GitLab"
+icon = "openstreetmap-website/social-link-icons/gitlab"
+link = "https://gitlab.com/Lumikeiju"
+
+[[project.extra.social]]
+name = "Lumikeiju on OpenStreetMap"
+icon = "openstreetmap-website/social-link-icons/osm"
+link = "https://www.openstreetmap.org/user/Lumikeiju"
+[[project.extra.social]]
+name = "Lumikeiju on the OpenStreetMap Community Forum"
+icon = "openstreetmap-website/social-link-icons/osm_forum"
+link = "https://community.openstreetmap.org/u/Lumikeiju"
+[[project.extra.social]]
+name = "Lumikeiju on the OpenStreetMap Wiki"
+icon = "openstreetmap-website/social-link-icons/osm_wiki"
+link = "https://wiki.openstreetmap.org/wiki/User:Lumikeiju"
+
+[[project.extra.social]]
+name = "Lumikeiju on Mastodon"
+icon = "openstreetmap-website/social-link-icons/mastodon"
+link = "https://en.osm.town/@Lumikeiju"
+
+[[project.extra.social]]
+name = "Lumikeiju on Wikimedia Commons"
+icon = "openstreetmap-website/social-link-icons/wikimedia"
+link = "https://commons.wikimedia.org/wiki/User:Lumikeiju"
+[[project.extra.social]]
+name = "Lumikeiju on Wikidata"
+icon = "openstreetmap-website/social-link-icons/wikidata"
+link = "https://www.wikidata.org/wiki/User:Lumikeiju"
+[[project.extra.social]]
+name = "Lumikeiju on Wikipedia"
+icon = "openstreetmap-website/social-link-icons/wikipedia"
+link = "https://en.wikipedia.org/wiki/User:Lumikeiju"
+
+[[project.extra.social]]
+name = "Lumikeiju on the HOT Tasking Manager"
+icon = "openstreetmap-website/social-link-icons/hot"
+link = "https://tasks.hotosm.org/users/Lumiekiju"
+[[project.extra.social]]
+name = "Lumikeiju on the OSM US Tasking Manager"
+icon = "openstreetmap-website/social-link-icons/website"
+link = "https://tasks.openstreetmap.us/users/Lumikeiju"
+
+[[project.extra.social]]
+name = "Lumikeiju on HDYC"
+icon = "openstreetmap-website/social-link-icons/hdyc"
+link = "https://hdyc.neis-one.org/?Lumikeiju"
+[[project.extra.social]]
+name = "Lumikeiju on OSMCha"
+icon = "openstreetmap-website/social-link-icons/website"
+link = "https://osmcha.org/?filters=%7B%22date__gte%22%3A%5B%7B%22label%22%3A%22%22%2C%22value%22%3A%22%22%7D%5D%2C%22users%22%3A%5B%7B%22label%22%3A%22Lumikeiju%22%2C%22value%22%3A%22Lumikeiju%22%7D%5D%7D"
+
+[[project.extra.social]]
+name = "Lumikeiju on Mapillary"
+icon = "openstreetmap-website/social-link-icons/mapillary"
+link = "https://www.mapillary.com/app/user/Lumikeiju"
+[[project.extra.social]]
+name = "Lumikeiju on KartaView"
+icon = "openstreetmap-website/social-link-icons/website"
+link = "https://kartaview.org/user/lumikeiju"
 
 # ----------------------------------------------------------------------------
 # Navigation
