@@ -8,7 +8,7 @@ title: Contributing
 
 This guide explains how to contribute to Silmärin.
 
-This guide is exclusively intended for use by Lumikeiju.
+Silmärin does not accept external contributions. This guide is exclusively intended for use by Lumikeiju and the Moonlight Librarian.
 
 ---
 
