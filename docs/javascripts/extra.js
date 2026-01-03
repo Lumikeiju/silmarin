@@ -10,6 +10,7 @@
  */
 const titleMapSource = {
     josm: "JOSM",
+    esr: "ESR",
 };
 
 /**
